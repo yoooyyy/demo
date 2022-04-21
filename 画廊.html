@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./gong.css">
+    <style>
+        *{padding:0;margin:0;}
+         .navv>ul>li{float:left;list-style-type:none;margin-left:12px;padding-top:10px;}
+        .navv>ul>li>a{font-size:12px;text-decoration:none;color:#838383;}
+        .navv>ul>li>a:hover{color:red;}
+        .main-body{width: 1200px;margin-left: auto;margin-right: auto;}
+        
+        .leica{height: 42px;}
+        .ag{float:left;margin-right:25px;padding-left:40px;}
+        .leica p{font-size:10px;padding:14px;}
+        .world{height: 140px;}
+        .world d{margin-left:-100px;font-size:30px;margin-top:40px;}
+        .world p{margin-left:100px;}
+        main{width: 1200px;margin:0 auto;}
+        .picture{margin:0 auto;height: 472px;}
+        .picture img{border:1px solid #b6b6b6}
+        .option li{float:left;list-style-type: none;width: 298px;height: 49px;text-align: center;line-height: 49px;border:1px solid #b6b6b6;font-size:12px;}
+        .option li a{text-decoration: none;color:black;}
+        .word{width: 1200px;border-bottom:1px solid #b6b6b6}
+        .word div{width: 1000px;margin-left:auto;margin-right:auto;padding-top:78px;padding-bottom:44px;}
+        .one{width: 1200px;margin-left: auto;margin-right: auto;border-bottom:1px solid #b6b6b6;}
+        .pic-one{width: 1000px;margin-left:auto;margin-right: auto;margin-top:42px;margin-bottom:42px;}
+        .pic-one div{float:left;width: 320px;border-right:1px dotted #424242;padding-bottom:18px;}
+        .pic-one div:first-child{margin-right:14px;}
+        .pic-one div:nth-child(2){margin-right: 19px;}
+        .pic-one h5{font-size:16px;margin-bottom:12px;}
+        .pic-one div:last-child{border-right:none;}
+
+        .two{width: 1200px;margin-left: auto;margin-right: auto;border-bottom:1px solid #b6b6b6;}
+        .pic-two{width: 1000px;margin-left:auto;margin-right: auto;margin-top:42px;margin-bottom:42px;}
+        .pic-two div{float:left;width: 320px;border-right:1px dotted #424242;padding-bottom:18px;}
+        .pic-two div:first-child{margin-right:14px;}
+        .pic-two div:nth-child(2){margin-right: 19px;}
+        .pic-two h5{font-size:16px;margin-bottom:12px;}
+        .pic-two div:last-child{border-right:none;}
+
+        .three{width: 1200px;margin-left: auto;margin-right: auto;border-bottom:1px solid #b6b6b6;}
+        .pic-three{width: 1000px;margin-left:auto;margin-right: auto;margin-top:42px;margin-bottom:42px;}
+        .pic-three div{float:left;width: 320px;border-right:1px dotted #424242;padding-bottom:18px;}
+        .pic-three div:first-child{margin-right:14px;}
+        .pic-three div:nth-child(2){margin-right: 19px;}
+        .pic-three h5{font-size:16px;margin-bottom:12px;}
+        .pic-three div:last-child{border-right:none;}
+        .four{width: 1200px;margin-left: auto;margin-right: auto;border-bottom:1px solid #b6b6b6;}
+        .pic-four{width: 1000px;margin-left:auto;margin-right: auto;margin-top:42px;margin-bottom:42px;}
+        .pic-four div{float:left;width: 320px;border-right:1px dotted #424242;padding-bottom:18px;}
+        .pic-four div:first-child{margin-right:14px;}
+        .pic-four div:nth-child(2){margin-right: 19px;}
+        .pic-four h5{font-size:16px;margin-bottom:12px;}
+        .pic-four div:last-child{border-right:none;}
+        .five{width: 1200px;margin-left: auto;margin-right: auto;border-bottom:1px solid #b6b6b6;}
+        .pic-five{width: 1000px;margin-left:auto;margin-right: auto;margin-top:42px;margin-bottom:42px;}
+        .pic-five div{float:left;width: 320px;border-right:1px dotted #424242;padding-bottom:18px;}
+        .pic-five div:first-child{margin-right:14px;}
+        .pic-five div:nth-child(2){margin-right: 19px;}
+        .pic-five h5{font-size:16px;margin-bottom:12px;}
+        .pic-five div:last-child{border-right:none;}
+        .six{width: 1200px;margin-left: auto;margin-right: auto;border-bottom:1px solid #b6b6b6;}
+        .pic-six{width: 1000px;margin-left:auto;margin-right: auto;margin-top:42px;margin-bottom:42px;}
+        .pic-six div{float:left;width: 320px;border-right:1px dotted #424242;padding-bottom:18px;}
+        .pic-six div:first-child{margin-right:14px;}
+        .pic-six div:nth-child(2){margin-right: 19px;}
+        .pic-six h5{font-size:16px;margin-bottom:12px;}
+        .pic-six div:last-child{border-right:none;}
+        .center{width: 1000px;margin-left:auto;margin-right:auto;padding-bottom:36px;margin-top:46px;}
+        .shang{border-right:none;}
+        .hui,.dian,.shang{float:left;width: 300px;border-right:1px dotted #424242;margin-right: 14px;}
+        .center div{float:left;padding-right:14px;}
+        .shang{border:none;}
+        
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="top">
+        <div class="friendlink clearfix">
+            <div class="fri-left clearfix">
+                <ul>
+                    <li><a href="#">新闻中心</a></li>
+                    <li><a href="#">联系方式</a></li>
+                    <li><a href="#">徕卡fotopaix</a></li>
+                    <li><a href="#">天猫</a></li>
+                    <li><a href="#">京东</a></li>
+                    <li><img src="./images/ai_06.gif" alt=""></li>
+                    
+                    <li><img src="./images/ai_08.gif" alt=""></li>
+                </ul>
+            </div>
+            <div class="fri-right clearfix">
+                <ul>
+                <li>搜索</li>
+                <li>English</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+        <div class="nav clearfix">
+            <div class="wrop">
+            <div class="logo clearfix">
+                <img src="./images/da_19.gif" alt=""></div>
+            <div class="navv clearfix">
+                <ul>
+                    <li><a href="./摄影.html">摄影</a>
+                    <ul>
+                        <li><a href="#" class="dropdown">徕卡su系列</a>
+                        <ul>
+                            <li><a href="">徕卡S系统</a></li>
+                            <li><a href="">徕卡S3系统</a></li>
+                            <li><a href="">徕卡 </a></li>
+                            <li><a href="">徕卡S系列镜头</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">徕卡ta系列</a></li>
+                        <li><a href="#">徕卡gg系列</a></li>
+
+                    </ul>
+                    </li>
+                    <li><a href="./运动光学.html">运动光学</a>
+                    <ul>
+                        <li><a href="">体验自然</a></li>
+                        <li><a href="">狩猎</a></li>
+                        <li><a href="">生活方式和体验</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="./客户服务html">客户服务</a>
+                    <ul>
+                        <li><a href="">维修</a></li>
+                        <li><a href="">保养</a></li>
+                        <li><a href="">服务和支持</a></li>
+                    </ul>
+                    </li>
+                    <li><a href=./相机。html>公司信息</a>
+                    <ul>
+                        <li><a href="">我们的价值</a></li>
+                        <li><a href="">公司简介</a></li>
+                        <li><a href="">服务中心</a></li>
+                        <li><a href="">采购与质量管理</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="./徕兹公园.html">俫兹公园</a>
+                    <ul>
+                        <li><a href="">徕兹公园</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="./相机.html">徕卡世界</a>
+                    <ul>
+                        <li><a href="">徕卡世界</a></li>
+                        <li><a href="">世界需要见证</a></li>
+                        <li><a href="">品牌世界</a></li>
+                        <li><a href="">0.95</a></li>
+                        <li><a href="">LEI摄影</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="./学院.html">徕卡学院</a>
+                    <ul>
+                        <li><a href="">徕卡学院课程</a></li>
+                        <li><a href="">中华区徕卡学院</a></li>
+                    </ul>
+                </li>
+                    <li><a href="#">徕卡画廊</a>
+                    <ul>
+                        <li><a href="">北京徕卡画廊</a></li>
+                        <li><a href="">东京徕卡画廊</a></li>
+                        <li><a href="">首尔徕卡画廊</a></li>
+                        <li><a href="">华盛顿徕卡画廊</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="./专卖.html">专卖店和经销商</a>
+                    <ul>
+                        <li><a href="">京东旗舰店</a></li>
+                        <li><a href="">京东自营店</a></li>
+                        <li><a href="">天猫旗舰店</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <div class="leica">
+            <div class="ag">
+                <p>LEICA CAMERA AG </p>
+            </div>
+            <div class="lai">
+                <p>徕卡世界</p>
+            </div>
+        </div>
+        <div class="world">
+            <d>徕卡世界</d>
+            <p>品牌背后</p>
+        </div>
+        <div class="picture">
+            <img src="./images/hl_03.gif" alt="">
+        </div>
+        <div class="option clearfix">
+            <ul>
+                <li><a href="">徕卡威兹勒画廊</a></li>
+                <li><a href="">徕卡萨尔斯堡画廊</a></li>
+                <li><a href="">徕卡维也纳画廊</a></li>
+                <li><a href="">徕卡亲斯特画廊</a></li>
+            </ul>
+            <div class="word">
+                <div>
+                为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定为了表达人们的张海东鼓励从人们无淡定
+            </div>
+            </div>
+        </div>
+        <div class="one">
+        <div class="pic-one clearfix">
+            <div>
+                <h5>徕卡法兰克福画廊</h5>
+                <img src="./images/hl_07.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡德国画廊</h5>
+                <img src="./images/hl_09.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡英国画廊</h5>
+                <img src="./images/hl_11.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="two">
+        <div class="pic-two clearfix">
+            <div>
+                <h5>徕卡法兰克福画廊</h5>
+                <img src="./images/hl_16.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡德国画廊</h5>
+                <img src="./images/hl_17.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡英国画廊</h5>
+                <img src="./images/hl_18.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="three">
+        <div class="pic-three clearfix">
+            <div>
+                <h5>徕卡法兰克福画廊</h5>
+                <img src="./images/hl_22.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡德国画廊</h5>
+                <img src="./images/hl_23.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡英国画廊</h5>
+                <img src="./images/hl_24.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="four">
+
+    
+        <div class="pic-four clearfix">
+            <div>
+                <h5>徕卡法兰克福画廊</h5>
+                <img src="./images/hl_28.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡德国画廊</h5>
+                <img src="./images/hl_29.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡英国画廊</h5>
+                <img src="./images/hl_30.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="five">
+        <div class="pic-five clearfix">
+            <div>
+                <h5>徕卡法兰克福画廊</h5>
+                <img src="./images/hl_34.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡德国画廊</h5>
+                <img src="./images/hl_35.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡英国画廊</h5>
+                <img src="./images/hl_35.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="six">
+        <div class="pic-six clearfix">
+            <div>
+                <h5>徕卡法兰克福画廊</h5>
+                <img src="./images/hl_28.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡德国画廊</h5>
+                <img src="./images/hl_24.gif" alt="">
+            </div>
+            <div>
+                <h5>徕卡英国画廊</h5>
+                <img src="./images/hl_29.gif" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="center clearfix">
+            <div class="hui">
+                <div><img src="./images/q_100.gif" alt=""></div>
+                <div>
+                    <h4>会员中心</h4>
+                    <p>在网站注册你将获得专属的服务</p>
+                </div>
+            </div>
+            <div class="dian">
+                <div><img src="./images/q_103.gif" alt=""></div>
+                <div>
+                    <h4>徕卡专卖店</h4>
+                    <p>寻找徕卡专卖店</p>
+                </div>
+            </div>
+            <div class="shang">
+                <div><img src="./images/q_106.gif" alt=""></div>
+                <div>
+                    <h4>徕卡经销商</h4>
+                    <p>找到离你您最近的经销商</p>
+                </div>
+            </div>
+</div>
+    </main>
+    <footer>
+        <div class="bottom">
+                <div class="inner clearfix">
+                    <div>
+                        <h4>信息中心</h4>
+                        <p>新闻</p>
+                        <p>徕卡学院</p>
+                        <p>联系徕卡</p>
+                     <h4>合作伙伴</h4>
+                        <p>CW sonderoptic
+                        </p>
+                        <p>Sinar Photography</p>
+                        
+                        
+                    </div>
+                    
+                    <div>
+                        <h4>新闻订阅</h4>
+                        <img src="./images/0_125.gif" alt="">
+                        <p>注册</p>
+                        
+                        <img src="./images/0_125.gif" alt="">
+                        <p>会员中心</p>
+                        <h4>全球博客</h4>
+                        <img src="./images/at_38.gif" alt="">
+                        <p>The Leica Blog</p>
+                        <img src="./images/at_38.gif" alt="">
+                        <p>The Leica Blog</p>
+                        <img src="./images/at_38.gif" alt="">
+                        <p>The Leica Blog</p>
+                    </div>
+                    <div>
+                        <h4>关注我们</h4>
+                        <img src="./images/at_32.gif" alt="">
+                        <p>微信</p>
+                        <img src="./images/at_32.gif" alt="">
+                        <p>微博</p>
+                        <img src="./images/at_32.gif" alt="">
+                        <p>efeeff</p>
+                        <p>偶尔field今晚</p>
+                        <p>eefes的风风</p>
+                       
+                    </div>
+                </div>
+                </div>
+                <div class="footer-bottom">
+                   <div class="fot-left clearfix">
+                       <div>数据隐私保护声明</div>
+                       <div>法律说明</div>
+                       <div>
+                           <img src="./images/cam_129.gif" alt="">
+                           户ICP贝160182283
+                       </div>
+                       <div>
+                           Copyright 2017莱卡相机贸易（上海）有限公司
+                       </div>
+                   </div>
+                   <div class="fot-right clearfix">
+                       <div>聚焦本质</div>
+                   <div>                           
+                   <img src="./images/cam_132.gif" alt="">
+                </div>
+                </div>
+                </div>
+            </footer>
+</div>
+</body>
+</html>

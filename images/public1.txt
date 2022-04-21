@@ -1,0 +1,19 @@
+.clearfix:before,.clearfix:after{display:block;content:"";}
+.clearfix:after{clear:both;}
+*{padding:0;margin:0px;} 
+.container{background-color: #000000;}
+header{width: 1200px;height: 88px;background-color: aqua;margin-left:auto;margin-right:auto;}
+.friendlink{width: 1200px;height: 40px;background-color:#262626;float:left;}
+
+
+.fri-left li{float:left;list-style-type:none;margin-left:12px;padding-top:10px;}
+.fri-left li a{font-size:12px;color:#838383;text-decoration:none;}
+.fri-right{float:right;}
+.fri-right li{list-style-type:none;float:left;margin-left:12px;padding-top:10px;text-decoration:none;font-size:12px;color:#838383;}
+
+.nav{float:left;width: 1200px;height: 48px;background-color:#000000;border-bottom:1px solid #363636}
+.logo{float:left;}
+
+.navv li{float:left;list-style-type:none;margin-left:12px;padding-top:10px;}
+.navv li a{font-size:12px;text-decoration:none;color:#838383;}
+.navv li a:hover{color:red;}
